@@ -1,0 +1,23 @@
+{
+   "name": "logger-js-examples",
+   "version": "1.0.0",
+   "description": "",
+   "scripts": {
+      "serve": "cd ../ && npm run clean-build && cd - && rollup --config --watch"
+   },
+   "devDependencies": {
+      "@rollup/plugin-commonjs": "^11.0.2",
+      "@rollup/plugin-node-resolve": "^7.1.1",
+      "@types/node": "^12.7.12",
+      "rollup": "^1.31.0",
+      "rollup-plugin-babel": "^4.3.3",
+      "rollup-plugin-livereload": "^1.2.0",
+      "rollup-plugin-serve": "^1.0.1",
+      "rollup-plugin-terser": "^5.2.0",
+      "rollup-plugin-typescript2": "^0.27.0",
+      "typescript": "^3.6.3"
+   },
+   "keywords": [],
+   "author": "Julien Khong <julienkhong@yahoo.fr>",
+   "license": "ISC"
+}
