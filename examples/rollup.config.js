@@ -17,7 +17,7 @@ const plugins = [
 export default {
    input: 'index.js',
    output: {
-      file: 'bundle.js',
+      file: 'dist/bundle.js',
       format: 'iife',
       name: 'loggerJsExample',
    },
