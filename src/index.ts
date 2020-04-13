@@ -1,6 +1,8 @@
 export { Logger } from './loggers/Logger';
 export { NoLogger } from './loggers/NoLogger';
 export { DefaultBrowserLogger } from './loggers/DefaultBrowserLogger';
+export { DefaultTerminalLogger } from './loggers/DefaultTerminalLogger';
+export { TerminalColors } from './domain/TerminalColors';
 
 // https://stackoverflow.com/questions/13815640/a-proper-wrapper-for-console-log-with-correct-line-number
 // https://gist.github.com/pincheira/2724082

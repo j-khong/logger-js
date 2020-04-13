@@ -39,5 +39,13 @@
    },
    "keywords": [],
    "author": "Julien Khong <julienkhong@yahoo.fr>",
-   "license": "ISC"
+   "license": "ISC",
+   "homepage": "https://github.com/j-khong/logger-js#readme",
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/j-khong/logger-js.git"
+   },
+   "bugs": {
+      "url": "https://github.com/j-khong/logger-js/issues"
+   }
 }
